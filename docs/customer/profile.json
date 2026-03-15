@@ -1,95 +1,136 @@
 {
   "profile": {
-    "companyName": "",
-    "shortName": "",
+    "companyName": "宜昌长机科技有限责任公司",
+    "shortName": "长机科技 / CJMT",
+    "formerly": "长江机床厂（始建于1968年）",
     "isListed": false,
     "stockCode": "",
-    "website": "",
-    "industry": "",
-    "subIndustry": "",
-    "scale": "",
-    "mainBusiness": "",
-    "products": [],
-    "targetCustomers": [],
-    "businessModel": "",
-    "rating": "",
-    "tags": [],
+    "website": "https://www.cjmt.com.cn/",
+    "industry": "高端装备制造",
+    "subIndustry": "齿轮加工机床 / 数控机床",
+    "scale": "500余人，总资产8亿余元",
+    "mainBusiness": "专业生产全系列数控插齿机、滚齿机、铣齿机等制齿设备，致力于成为齿轮制造解决方案的专家",
+    "products": [
+      "数控插齿机系列（加工直径120mm～5000mm）",
+      "数控铣齿机系列（加工直径800mm～8000mm）",
+      "数控滚齿机系列",
+      "数控梳槽机"
+    ],
+    "targetCustomers": [
+      "汽车制造",
+      "风电行业",
+      "矿山机械",
+      "港口机械",
+      "船舶工业",
+      "工程机械",
+      "刀具制造",
+      "冶金机械"
+    ],
+    "businessModel": "装备制造 + 解决方案服务",
+    "rating": "国家级专精特新重点小巨人 / 制造业单项冠军",
+    "tags": ["专精特新", "单项冠军", "高新技术企业", "智能制造", "国有独资"],
 
-    "summary": "",
+    "summary": "前身为始建于1968年的长江机床厂，国有独资企业。是中国系列最全、规格最大的插齿机/滚铣机研制基地，数控插齿机获国家级制造业单项冠军产品。2023年工艺数字化设计场景入选国家智能制造优秀场景，具备较好的数字化基础。",
 
     "registration": {
-      "foundedDate": "",
-      "registeredCapital": "",
-      "paidInCapital": "",
-      "ownershipType": "",
+      "foundedDate": "1968年（前身为长江机床厂）",
+      "registeredCapital": "待补充",
+      "paidInCapital": "待补充",
+      "ownershipType": "国有独资",
+      "address": "中国（湖北）自贸区宜昌片区长机路1号",
       "branches": {
-        "count": "",
+        "count": "待验证",
         "locations": []
       },
-      "legalRisks": "",
-      "operatingAnomalies": "",
-      "penalties": "",
-      "summary": ""
+      "legalRisks": "待核查",
+      "operatingAnomalies": "未发现明显异常",
+      "penalties": "待核查",
+      "summary": "老牌国企背景，资质优良，国家级重点小巨人企业"
     },
 
     "policyAnalysis": {
-      "isSpecialized": false,
-      "isDigitalTransformation": false,
+      "isSpecialized": true,
+      "isDigitalTransformation": true,
       "isESG": false,
-      "isHighTech": false,
-      "policySupportLevel": "",
-      "leverageStrategy": ""
+      "isHighTech": true,
+      "policySupportLevel": "高 - 专精特新小巨人、单项冠军、智能制造多重政策支持",
+      "leverageStrategy": "可重点强调智能制造升级、数字化转型示范、国产高端装备替代等政策导向"
     },
 
     "timing": {
-      "currentPhase": "",
-      "evidence": "",
-      "entryStrategy": ""
+      "currentPhase": "数字化深化期",
+      "evidence": "2023年入选智能制造优秀场景，已实现远程编程和智能监控管理",
+      "entryStrategy": "以数据价值挖掘、工艺知识沉淀、全球化协同为切入点"
     },
 
     "creditRisk": {
-      "legalRisk": "",
-      "operationalRisk": "",
-      "creditRating": "",
+      "legalRisk": "低 - 国企背景，资质健全",
+      "operationalRisk": "低 - 行业地位稳固，技术领先",
+      "creditRating": "待获取专业评级",
       "warnings": [],
-      "salesAdvice": ""
+      "salesAdvice": "优质客户，可重点投入。决策周期可能较长，需耐心跟进"
     },
 
     "organization": {
-      "type": "",
-      "decisionChain": "",
-      "keyPersons": [],
-      "salesStrategy": ""
+      "type": "国企",
+      "decisionChain": "待验证 - 建议关注：生产副总、技术总监、信息化负责人、采购部门",
+      "keyPersons": [
+        {"role": "生产副总", "name": "待补充", "influence": "高"},
+        {"role": "技术总监", "name": "待补充", "influence": "高"},
+        {"role": "信息化负责人", "name": "待补充", "influence": "中"}
+      ],
+      "salesStrategy": "突出降本增效、工艺知识沉淀、数据价值挖掘；强调与现有数字化基础的衔接；提供行业标杆案例"
     },
 
     "strategy": {
-      "phase": "",
-      "growthStage": "",
-      "competitivePosition": "",
-      "digitalMaturity": "",
-      "analysisPath": "",
-      "informationQuality": "",
-      "expansionSignals": [],
+      "phase": "成长期",
+      "growthStage": "数字化深化 + 国际化拓展",
+      "competitivePosition": "细分领域龙头 - 插齿机/滚铣机系列最全、规格最大",
+      "digitalMaturity": "中高 - 工艺数字化、远程编程、智能监控已落地",
+      "analysisPath": "基于公开工商信息、行业报告、政策文件分析",
+      "informationQuality": "中等 - 官网和行业协会信息较丰富，财务数据未公开",
+      "expansionSignals": [
+        "2017年滚齿机首次出口印度",
+        "高端数控插齿机进入韩国现代汽车生产线",
+        "工艺数字化设计入选国家智能制造优秀场景"
+      ],
       "contractionSignals": [],
-      "riskSignals": []
+      "riskSignals": ["未上市公司，财务数据不透明"]
     },
 
     "techStack": {
-      "current": [],
-      "inferred": [],
-      "maturity": "",
-      "direction": ""
+      "current": ["数控系统", "远程编程", "智能监控管理"],
+      "inferred": ["CAD/CAM", "ERP/MES（待验证）", "工业互联网平台"],
+      "maturity": "中等偏上",
+      "direction": "向智能化、服务化、平台化演进"
     },
 
-    "keyMetrics": [],
+    "keyMetrics": [
+      {"label": "员工规模", "value": "500余人"},
+      {"label": "总资产", "value": "8亿余元"},
+      {"label": "占地面积", "value": "24万余平方米"},
+      {"label": "厂房建筑面积", "value": "15万平方米"}
+    ],
 
     "metadata": {
-      "createdAt": "",
+      "createdAt": "2025-03-15",
       "updatedAt": "",
-      "createdBy": "",
-      "version": "",
-      "sources": [],
-      "confidence": 0
+      "createdBy": "AI销售助理",
+      "version": "1.0",
+      "sources": [
+        "宜昌长机科技官网",
+        "中国机床工具工业协会",
+        "湖北省经济和信息化厅",
+        "长江网",
+        "国家级工业设计中心名单"
+      ],
+      "confidence": 0.75,
+      "todos": [
+        "补充法人代表、注册资本等工商注册信息",
+        "验证决策链条关键人物",
+        "了解当前IT系统架构和供应商",
+        "确认近期信息化规划和预算周期"
+      ]
     }
   }
 }
