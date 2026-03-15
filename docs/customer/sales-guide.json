@@ -1,48 +1,358 @@
 {
   "salesGuide": {
+    "customerId": "cjmt-2025",
+    "customerName": "宜昌长机科技有限责任公司",
+    "generatedAt": "2025-03-15T12:00:00Z",
+    "version": "1.0.0",
+
     "insights": {
-      "risks": [],
+      "risks": [
+        {
+          "type": "信息风险",
+          "description": "仓储需求信息较少，现有仓储模式和痛点未明确",
+          "severity": "高",
+          "mitigation": "此次拜访重点参观仓库现场，观察现有作业模式，记录痛点"
+        },
+        {
+          "type": "预算风险",
+          "description": "预算范围未明确，国企决策周期可能较长",
+          "severity": "中",
+          "mitigation": "试探性询问预算情况，提供分阶段实施方案降低决策门槛"
+        },
+        {
+          "type": "竞争风险",
+          "description": "智能仓储领域可能存在多家供应商竞争",
+          "severity": "中",
+          "mitigation": "强调与现有数字化基础的衔接能力，突出智能制造场景延续性"
+        },
+        {
+          "type": "集成风险",
+          "description": "立体仓储柜供应商和接口能力不明确",
+          "severity": "中",
+          "mitigation": "确认设备供应商意向，提前了解接口开放程度"
+        }
+      ],
       "probability": {
-        "value": 0,
-        "level": "",
-        "factors": []
+        "value": 58,
+        "level": "中",
+        "factors": [
+          {
+            "type": "正面",
+            "description": "客户主动提出仓储需求，意向明确"
+          },
+          {
+            "type": "正面",
+            "description": "国企背景，专精特新小巨人，信用风险低"
+          },
+          {
+            "type": "正面",
+            "description": "已入选智能制造优秀场景，数字化基础好"
+          },
+          {
+            "type": "负面",
+            "description": "需求信息不充分，需深入调研"
+          },
+          {
+            "type": "负面",
+            "description": "预算和时间节点未明确"
+          },
+          {
+            "type": "负面",
+            "description": "决策链条和关键联系人未建立"
+          }
+        ]
       },
-      "opportunities": []
+      "opportunities": [
+        {
+          "title": "智能制造场景延续",
+          "potentialValue": "高",
+          "description": "客户2023年入选国家智能制造优秀场景，智能仓储可作为数字化升级的延续项目",
+          "action": "强调与现有智能制造场景的衔接，打造示范标杆"
+        },
+        {
+          "title": "工艺知识沉淀延伸",
+          "potentialValue": "中",
+          "description": "作为装备制造企业，客户对工艺知识管理有需求，仓储系统可与物料追溯结合",
+          "action": "介绍物料批次追溯功能，与工艺质量管理联动"
+        },
+        {
+          "title": "立体柜+软件一体化",
+          "potentialValue": "中",
+          "description": "客户需要立体仓储柜和系统，可提供一体化方案降低协调成本",
+          "action": "如果客户未选设备供应商，可推荐合作设备商，提供整体方案"
+        }
+      ]
     },
 
     "timing": {
-      "timingStage": "",
-      "analysisBasis": [],
-      "entryStrategy": "",
-      "urgency": ""
+      "timingStage": "数字化深化期",
+      "analysisBasis": [
+        "2023年入选国家智能制造优秀场景（工艺数字化设计）",
+        "已实现远程编程和智能监控管理",
+        "国有独资企业，数字化升级持续投入"
+      ],
+      "entryStrategy": "以数据价值挖掘、工艺知识沉淀、与现有数字化场景衔接为切入点",
+      "urgency": "中"
     },
 
-    "competitors": [],
+    "interviewGuide": {
+      "quickScreening": [
+        {
+          "id": "q1",
+          "category": "现状",
+          "question": "咱们现在的仓库大概多大面积？平时出入库频率怎么样？",
+          "purpose": "快速了解仓储规模和作业强度",
+          "followUp": "哪类物料最多？"
+        },
+        {
+          "id": "q2",
+          "category": "痛点",
+          "question": "目前仓储作业中最头疼的问题是什么？",
+          "purpose": "识别核心痛点",
+          "followUp": "这个问题大概影响多少人/多长时间？"
+        },
+        {
+          "id": "q3",
+          "category": "触发",
+          "question": "是什么契机考虑上智能仓储项目的？",
+          "purpose": "了解项目背景和紧迫程度",
+          "followUp": "希望什么时候能看到效果？"
+        },
+        {
+          "id": "q4",
+          "category": "预算",
+          "question": "项目大概有预算规划吗？",
+          "purpose": "判断预算情况",
+          "followUp": "是今年就有规划还是明年？"
+        },
+        {
+          "id": "q5",
+          "category": "决策",
+          "question": "这个项目主要由哪个部门来牵头？",
+          "purpose": "识别牵头部门和决策关系",
+          "followUp": "最终由谁来拍板？"
+        }
+      ],
+      "deepDive": [
+        {
+          "id": "d1",
+          "category": "流程",
+          "question": "能带我参观一下仓库吗？想看看现在的作业流程",
+          "purpose": "现场观察，获取第一手信息",
+          "followUp": "这个环节一般是人工还是系统辅助？"
+        },
+        {
+          "id": "d2",
+          "category": "物料",
+          "question": "仓储的主要物料类型有哪些？大致有多少SKU？",
+          "purpose": "了解物料复杂度，影响系统设计",
+          "followUp": "有没有需要特殊存储条件的物料？"
+        },
+        {
+          "id": "d3",
+          "category": "集成",
+          "question": "现在有ERP或MES系统吗？仓储需要和哪些系统对接？",
+          "purpose": "明确集成需求和工作量",
+          "followUp": "是谁在负责这些系统的维护？"
+        },
+        {
+          "id": "d4",
+          "category": "设备",
+          "question": "立体仓储柜有接触过供应商吗？还是希望我们推荐？",
+          "purpose": "确认设备采购方式和接口责任",
+          "followUp": "对设备有什么特殊要求吗（承重、尺寸、速度）？"
+        },
+        {
+          "id": "d5",
+          "category": "追溯",
+          "question": "物料批次追溯是怎么要求的？",
+          "purpose": "了解质量管理要求",
+          "followUp": "需要追溯到什么程度（原料/批次/供应商）？"
+        },
+        {
+          "id": "d6",
+          "category": "时间",
+          "question": "期望什么时候能上线？有没有硬性的时间节点？",
+          "purpose": "明确项目时间线",
+          "followUp": "这个时间节点有什么特殊原因吗？"
+        },
+        {
+          "id": "d7",
+          "category": "标准",
+          "question": "怎么判断这个项目是成功的？",
+          "purpose": "了解客户期望和成功标准",
+          "followUp": "最想解决的问题是哪个？"
+        },
+        {
+          "id": "d8",
+          "category": "风险",
+          "question": "对这个项目有什么顾虑或担心的地方吗？",
+          "purpose": "提前识别潜在阻碍",
+          "followUp": "之前有没有类似项目的经验？"
+        }
+      ],
+      "customQuestions": [
+        {
+          "id": "cq1",
+          "category": "智能制造",
+          "question": "之前入选智能制造优秀场景，仓储这块有没有也想纳入申报的计划？",
+          "purpose": "结合政策导向切入",
+          "followUp": "有没有政策支持或补贴？"
+        },
+        {
+          "id": "cq2",
+          "category": "装备制造",
+          "question": "机床配件的仓储有什么特殊要求吗？比如精度件、精密刀具的保管？",
+          "purpose": "结合行业特点提问",
+          "followUp": "有没有呆滞料的处理需求？"
+        }
+      ]
+    },
+
+    "competitors": [
+      {
+        "competitor": "传统WMS厂商（如富勒、唯智）",
+        "position": "成熟的WMS产品供应商",
+        "strengths": ["产品成熟稳定", "功能全面", "大客户案例多"],
+        "weaknesses": ["价格昂贵", "实施周期长", "定制灵活性一般", "对中小企业服务响应慢"],
+        "ourAdvantage": "性价比更高，实施周期短，灵活定制",
+        "differentiation": "突出快速交付和灵活定制能力"
+      },
+      {
+        "competitor": "立体仓储设备商自带的WMS",
+        "position": "设备厂商捆绑软件",
+        "strengths": ["软硬件一体", "接口无缝"],
+        "weaknesses": ["功能简单", "扩展性差", "与其他系统集成困难"],
+        "ourAdvantage": "专业WMS功能，可集成多系统，扩展性强",
+        "differentiation": "强调系统专业性和长期扩展能力"
+      },
+      {
+        "competitor": "Excel/手工台账",
+        "position": "现有管理方式",
+        "strengths": ["零成本", "已有使用习惯", "灵活"],
+        "weaknesses": ["效率低", "易出错", "数据不实时", "无法追溯", "无法协同"],
+        "ourAdvantage": "效率提升显著，数据实时准确，支持追溯",
+        "differentiation": "强调效率提升和数据管理价值"
+      }
+    ],
 
     "decisionChain": {
-      "decisionMakers": [],
-      "influencers": [],
-      "blockers": [],
-      "decisionProcess": "",
-      "approvalPath": [],
-      "timeline": ""
+      "decisionMakers": [
+        {
+          "role": "生产副总",
+          "name": "待补充",
+          "concerns": ["生产效率", "投入产出", "实施风险"],
+          "motivations": ["保障生产顺畅", "降本增效", "管理水平提升"],
+          "approach": "强调效率提升、降本成果、行业案例"
+        },
+        {
+          "role": "技术总监/总工程师",
+          "name": "待补充",
+          "concerns": ["技术可行性", "系统集成", "数据安全"],
+          "motivations": ["技术先进性", "系统稳定性", "智能制造升级"],
+          "approach": "强调技术架构、集成能力、安全设计"
+        }
+      ],
+      "influencers": [
+        {
+          "role": "信息化负责人",
+          "name": "待补充",
+          "concerns": ["系统集成", "运维成本", "接口开放"],
+          "motivations": ["系统稳定运行", "减少运维工作"],
+          "approach": "强调开放API、易维护性"
+        },
+        {
+          "role": "仓储主管/仓库管理员",
+          "name": "待补充",
+          "concerns": ["操作便捷", "学习成本", "工作效率"],
+          "motivations": ["减少加班", "作业轻松", "减少差错"],
+          "approach": "强调易用性、效率提升、演示操作界面"
+        },
+        {
+          "role": "采购部门",
+          "name": "待补充",
+          "concerns": ["价格", "付款条件", "供应商资质"],
+          "motivations": ["合规采购", "价格合理"],
+          "approach": "提供资质证明、灵活付款方案"
+        }
+      ],
+      "blockers": [
+        {
+          "role": "财务部门",
+          "name": "待补充",
+          "concerns": ["预算审批", "投资回报"],
+          "approach": "准备ROI分析材料，提供分阶段付款方案"
+        }
+      ],
+      "decisionProcess": "需求调研 → 方案评审 → 技术验证 → 商务谈判 → 领导审批",
+      "approvalPath": ["生产副总", "技术总监", "财务总监", "总经理"],
+      "timeline": "国企决策流程，预计2-4个月"
     },
 
-    "nextActions": [],
+    "nextActions": [
+      {
+        "id": "a1",
+        "action": "本次拜访重点：参观仓库现场，记录现有作业模式",
+        "priority": "高",
+        "deadline": "2025-03-15",
+        "owner": "销售",
+        "status": "进行中"
+      },
+      {
+        "id": "a2",
+        "action": "访谈关键人物：生产副总、技术总监、仓储主管、信息化负责人",
+        "priority": "高",
+        "deadline": "2025-03-15",
+        "owner": "销售",
+        "status": "待开始"
+      },
+      {
+        "id": "a3",
+        "action": "确认关键信息：预算范围、上线时间、立体柜供应商、现有系统",
+        "priority": "高",
+        "deadline": "2025-03-15",
+        "owner": "销售",
+        "status": "待开始"
+      },
+      {
+        "id": "a4",
+        "action": "更新需求文档和跟进记录",
+        "priority": "中",
+        "deadline": "拜访当天",
+        "owner": "销售",
+        "status": "待开始"
+      },
+      {
+        "id": "a5",
+        "action": "根据调研结果准备针对性方案",
+        "priority": "中",
+        "deadline": "拜访后3天内",
+        "owner": "售前",
+        "status": "待开始"
+      }
+    ],
 
     "tracking": {
-      "coverageRate": 0,
-      "coveredCount": 0,
-      "totalCount": 0,
-      "categories": []
+      "coverageRate": 35,
+      "coveredCount": 8,
+      "totalCount": 23,
+      "categories": [
+        {"category": "业务现状", "covered": true},
+        {"category": "痛点问题", "covered": false},
+        {"category": "预算情况", "covered": false},
+        {"category": "决策链条", "covered": false},
+        {"category": "时间节点", "covered": false},
+        {"category": "现有系统", "covered": false},
+        {"category": "设备供应商", "covered": false}
+      ]
     },
 
     "followups": [],
 
     "metadata": {
-      "generatedAt": null,
-      "updatedAt": null,
-      "version": "1.0"
+      "generatedAt": "2025-03-15T12:00:00Z",
+      "updatedAt": "2025-03-15T12:00:00Z",
+      "version": "1.0.0"
     }
   }
 }
