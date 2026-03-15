@@ -4,88 +4,504 @@
     "versions": [
       {
         "version": "v1",
-        "createdAt": null,
-        "updatedAt": null,
+        "createdAt": "2025-03-15T10:00:00Z",
+        "updatedAt": "2025-03-15T10:00:00Z",
         "status": "draft",
-        "analyst": "",
+        "analyst": "AI销售助理",
 
         "salesInput": {
           "salesPerson": "",
+          "lastUpdated": "",
           "overallAssessment": {
-            "customerIntent": "",
-            "projectUrgency": "",
-            "budgetSituation": "",
-            "competitionStatus": "",
-            "winProbability": "",
+            "customerIntent": "不明确",
+            "projectUrgency": "不明确",
+            "budgetSituation": "未知",
+            "competitionStatus": "不明确",
+            "winProbability": "不明确",
             "keyObstacles": [],
-            "confidenceLevel": ""
+            "confidenceLevel": "低"
           },
           "keyPersons": [],
           "realNeeds": {
-            "explicitNeeds": [],
+            "explicitNeeds": [
+              "仓储管理系统",
+              "立体仓储柜",
+              "自动出入库"
+            ],
             "implicitNeeds": [],
-            "suspectedNeeds": []
+            "suspectedNeeds": [
+              "可能与现有MES/ERP系统集成",
+              "需要追溯物料批次",
+              "可能有盘点需求"
+            ],
+            "needsNotMentioned": [
+              "预算范围",
+              "上线时间要求",
+              "现有仓储模式和痛点",
+              "仓储物料类型和规模"
+            ]
           },
           "decisionFactors": {
-            "primaryFactor": "",
+            "primaryFactor": "不明确",
             "secondaryFactors": [],
             "dealBreakers": []
           },
-          "notes": ""
+          "notes": "需求信息较少，待进一步沟通补充",
+          "concerns": [
+            "不了解客户现有仓储模式和痛点",
+            "不清楚物料规模和出入库频次"
+          ],
+          "suggestions": [
+            "建议安排现场拜访，了解现有仓储作业流程",
+            "询问物料种类、数量、周转率等基础数据"
+          ]
         },
 
-        "pendingQuestions": [],
+        "pendingQuestions": [
+          {
+            "id": "pq1",
+            "category": "业务",
+            "priority": "高",
+            "question": "客户目前的仓储模式是怎样的？有哪些痛点？",
+            "context": "需要了解现有作业模式才能设计合适的方案",
+            "impactIfUnknown": "方案可能不符合实际业务场景",
+            "suggestedSource": "仓储主管/生产主管",
+            "status": "待回答",
+            "answer": "",
+            "answeredBy": "",
+            "answeredAt": "",
+            "followUpNeeded": false
+          },
+          {
+            "id": "pq2",
+            "category": "业务",
+            "priority": "高",
+            "question": "仓储的物料类型有哪些？大致的SKU数量、库存总量、日均出入库频次？",
+            "context": "这些数据直接影响立体仓储柜的选型和系统设计",
+            "impactIfUnknown": "无法确定方案规模和成本",
+            "suggestedSource": "仓储主管/生产计划",
+            "status": "待回答",
+            "answer": "",
+            "answeredBy": "",
+            "answeredAt": "",
+            "followUpNeeded": false
+          },
+          {
+            "id": "pq3",
+            "category": "技术",
+            "priority": "高",
+            "question": "是否有ERP/MES系统？需要对接哪些系统？",
+            "context": "智能仓储通常需要与ERP、MES等系统集成",
+            "impactIfUnknown": "无法评估集成工作量和方案完整性",
+            "suggestedSource": "信息化负责人/IT部门",
+            "status": "待回答",
+            "answer": "",
+            "answeredBy": "",
+            "answeredAt": "",
+            "followUpNeeded": false
+          },
+          {
+            "id": "pq4",
+            "category": "预算",
+            "priority": "高",
+            "question": "项目的预算范围大概是多少？",
+            "context": "智能仓储项目涉及软硬件，差异很大",
+            "impactIfUnknown": "方案可能超出或低于客户预期",
+            "suggestedSource": "采购/财务/决策人",
+            "status": "待回答",
+            "answer": "",
+            "answeredBy": "",
+            "answeredAt": "",
+            "followUpNeeded": false
+          },
+          {
+            "id": "pq5",
+            "category": "时间",
+            "priority": "中",
+            "question": "期望什么时候上线？是否有硬性时间节点？",
+            "context": "影响项目排期和交付节奏",
+            "impactIfUnknown": "无法制定合理的实施计划",
+            "suggestedSource": "项目负责人",
+            "status": "待回答",
+            "answer": "",
+            "answeredBy": "",
+            "answeredAt": "",
+            "followUpNeeded": false
+          },
+          {
+            "id": "pq6",
+            "category": "业务",
+            "priority": "中",
+            "question": "立体仓储柜是针对全部物料还是部分物料？主要存放什么类型的物料？",
+            "context": "不同物料对存储条件要求不同，影响设备选型",
+            "impactIfUnknown": "方案设计可能不合理",
+            "suggestedSource": "仓储主管/生产主管",
+            "status": "待回答",
+            "answer": "",
+            "answeredBy": "",
+            "answeredAt": "",
+            "followUpNeeded": false
+          },
+          {
+            "id": "pq7",
+            "category": "业务",
+            "priority": "中",
+            "question": "自动出入库的触发方式是什么？是否需要对接生产指令？",
+            "context": "影响系统的业务逻辑设计",
+            "impactIfUnknown": "系统流程可能与实际业务不匹配",
+            "suggestedSource": "生产主管/仓储主管",
+            "status": "待回答",
+            "answer": "",
+            "answeredBy": "",
+            "answeredAt": "",
+            "followUpNeeded": false
+          },
+          {
+            "id": "pq8",
+            "category": "技术",
+            "priority": "中",
+            "question": "立体仓储柜是否已选定供应商？还是需要整体方案？",
+            "context": "设备采购和软件系统的配合方式影响交付模式",
+            "impactIfUnknown": "不清楚项目边界和责任划分",
+            "suggestedSource": "采购/项目负责人",
+            "status": "待回答",
+            "answer": "",
+            "answeredBy": "",
+            "answeredAt": "",
+            "followUpNeeded": false
+          }
+        ],
+
+        "sources": {
+          "meetings": [],
+          "documents": [],
+          "communications": [
+            {
+              "id": "c1",
+              "date": "2025-03-15",
+              "channel": "口头沟通",
+              "participants": ["销售", "客户"],
+              "summary": "客户提出仓储管理需求，包括立体仓储柜和自动出入库",
+              "keyPoints": [
+                "需要仓储管理系统",
+                "考虑采购立体仓储柜",
+                "需要自动出入库功能"
+              ]
+            }
+          ],
+          "observations": []
+        },
 
         "background": {
-          "businessContext": "",
-          "currentChallenges": [],
-          "triggerEvent": "",
-          "currentSystems": [],
-          "expectedOutcomes": []
+          "businessContext": "宜昌长机科技是高端装备制造企业，主要生产齿轮加工机床。厂房面积15万平方米，员工500余人。作为数控插齿机单项冠军企业，客户具备较好的数字化基础（2023年入选国家智能制造优秀场景）。",
+          "currentChallenges": [
+            "待确认：现有仓储作业的具体痛点"
+          ],
+          "triggerEvent": "客户提出仓储管理需求，可能伴随产能扩张或数字化升级计划",
+          "currentSystems": [
+            {
+              "name": "待确认",
+              "vendor": "待确认",
+              "version": "待确认",
+              "purpose": "待确认现有仓储管理方式",
+              "users": "待确认",
+              "problems": [],
+              "dataVolume": "待确认",
+              "keepOrReplace": "待评估"
+            }
+          ],
+          "expectedOutcomes": [
+            "实现仓储作业自动化",
+            "提升出入库效率",
+            "提高仓储空间利用率",
+            "实现物料信息实时追溯"
+          ]
         },
 
-        "items": [],
-        "painPoints": [],
-        "opportunities": [],
+        "items": [
+          {
+            "id": "bn1",
+            "category": "仓储管理",
+            "title": "智能仓储管理系统",
+            "description": "建设仓储管理系统，实现仓储作业信息化管理",
+            "priority": "必须",
+            "requestedBy": "客户"
+          },
+          {
+            "id": "bn2",
+            "category": "硬件设备",
+            "title": "立体仓储柜",
+            "description": "采购立体仓储设备，提升仓储空间利用率",
+            "priority": "必须",
+            "requestedBy": "客户"
+          },
+          {
+            "id": "bn3",
+            "category": "自动化",
+            "title": "自动出入库",
+            "description": "实现物料出入库自动化，减少人工操作",
+            "priority": "必须",
+            "requestedBy": "客户"
+          }
+        ],
+
+        "painPoints": [
+          {
+            "id": "pain1",
+            "category": "待确认",
+            "description": "现有仓储作业痛点待确认",
+            "impact": "待确认",
+            "severity": "待确认",
+            "currentWorkaround": "待确认",
+            "desiredState": "待确认"
+          }
+        ],
+
+        "opportunities": [
+          {
+            "id": "opp1",
+            "description": "客户已入选智能制造优秀场景，具备较好的数字化基础",
+            "value": "系统集成难度较低，项目成功概率高"
+          },
+          {
+            "id": "opp2",
+            "description": "国企背景，专精特新小巨人",
+            "value": "项目立项和预算审批相对规范"
+          }
+        ],
 
         "scope": {
-          "inScope": [],
-          "outOfScope": [],
-          "phases": []
+          "inScope": [
+            {
+              "id": "s1",
+              "description": "仓储管理系统（WMS）",
+              "reason": "客户明确提出"
+            },
+            {
+              "id": "s2",
+              "description": "立体仓储柜硬件",
+              "reason": "客户明确提出"
+            },
+            {
+              "id": "s3",
+              "description": "自动出入库功能",
+              "reason": "客户明确提出"
+            }
+          ],
+          "outOfScope": [
+            {
+              "id": "os1",
+              "description": "生产制造执行（MES）",
+              "reason": "不在仓储范围内"
+            }
+          ],
+          "phases": [
+            {
+              "id": "phase1",
+              "name": "需求调研与方案确认",
+              "description": "深入了解客户需求，输出详细技术方案",
+              "duration": "1-2周",
+              "deliverables": ["需求调研报告", "技术方案文档"],
+              "milestone": "方案确认"
+            },
+            {
+              "id": "phase2",
+              "name": "系统设计与实施",
+              "description": "系统开发/部署，设备采购安装",
+              "duration": "待确认",
+              "deliverables": ["WMS系统", "立体仓储柜"],
+              "milestone": "系统上线"
+            }
+          ]
         },
 
         "constraints": {
           "budget": {
-            "total": "",
-            "paymentTerms": "",
-            "flexibility": ""
+            "total": "待确认",
+            "paymentTerms": "待确认",
+            "flexibility": "待确认"
           },
           "timeline": {
-            "expectedStart": "",
-            "expectedGoLive": "",
-            "hardDeadline": "",
-            "flexibility": ""
+            "expectedStart": "待确认",
+            "expectedGoLive": "待确认",
+            "hardDeadline": "待确认",
+            "flexibility": "待确认"
           }
         },
 
         "technicalRequirements": {
-          "functionalNeeds": [],
-          "technicalNeeds": [],
-          "integrationNeeds": [],
-          "securityNeeds": [],
-          "nonFunctionalNeeds": []
+          "functionalNeeds": [
+            {
+              "id": "fn1",
+              "module": "基础管理",
+              "title": "物料主数据管理",
+              "description": "维护物料基本信息、规格、批次等",
+              "priority": "P0"
+            },
+            {
+              "id": "fn2",
+              "module": "入库管理",
+              "title": "入库业务管理",
+              "description": "支持采购入库、生产入库、退货入库等多种入库类型",
+              "priority": "P0"
+            },
+            {
+              "id": "fn3",
+              "module": "出库管理",
+              "title": "出库业务管理",
+              "description": "支持领料出库、销售出库、调拨出库等多种出库类型",
+              "priority": "P0"
+            },
+            {
+              "id": "fn4",
+              "module": "库内管理",
+              "title": "库存管理",
+              "description": "库存查询、盘点、调拨、库存预警等",
+              "priority": "P1"
+            },
+            {
+              "id": "fn5",
+              "module": "立体库控制",
+              "title": "立体仓储柜集成",
+              "description": "与立体仓储设备对接，实现自动存取",
+              "priority": "P0"
+            },
+            {
+              "id": "fn6",
+              "module": "报表分析",
+              "title": "仓储报表",
+              "description": "出入库统计、库存分析、作业效率报表",
+              "priority": "P1"
+            }
+          ],
+          "technicalNeeds": [
+            {
+              "id": "tn1",
+              "category": "集成",
+              "title": "系统集成",
+              "description": "待确认对接ERP/MES等系统",
+              "priority": "重要"
+            },
+            {
+              "id": "tn2",
+              "category": "硬件",
+              "title": "设备对接",
+              "description": "与立体仓储柜控制系统对接",
+              "priority": "必须"
+            }
+          ],
+          "integrationNeeds": [
+            {
+              "id": "in1",
+              "targetSystem": "待确认ERP",
+              "direction": "双向",
+              "purpose": "物料主数据同步、出入库单据对接",
+              "priority": "待确认"
+            },
+            {
+              "id": "in2",
+              "targetSystem": "待确认MES",
+              "direction": "双向",
+              "purpose": "生产领料对接、物料追溯",
+              "priority": "待确认"
+            },
+            {
+              "id": "in3",
+              "targetSystem": "立体仓储柜PLC",
+              "direction": "双向",
+              "purpose": "设备指令下发、状态反馈",
+              "priority": "必须"
+            }
+          ],
+          "securityNeeds": [
+            {
+              "id": "sec1",
+              "category": "权限",
+              "title": "权限控制",
+              "description": "按角色控制功能权限和数据权限"
+            },
+            {
+              "id": "sec2",
+              "category": "日志",
+              "title": "操作日志",
+              "description": "记录关键操作，支持追溯"
+            }
+          ],
+          "nonFunctionalNeeds": {
+            "performance": {
+              "description": "待确认：根据作业规模确定",
+              "requirements": []
+            },
+            "availability": {
+              "description": "仓储作业系统需保证高可用",
+              "requirements": ["可用性>99%", "故障恢复<4小时"]
+            },
+            "usability": {
+              "description": "一线仓库工人使用，需简单易用",
+              "requirements": ["界面简洁", "操作步骤少", "支持手持终端"]
+            }
+          }
         },
 
         "risksAndAssumptions": {
-          "risks": [],
-          "assumptions": [],
-          "dependencies": []
+          "risks": [
+            {
+              "id": "risk1",
+              "category": "业务",
+              "description": "需求信息不充分，可能需要多次调研确认",
+              "probability": "高",
+              "impact": "中",
+              "mitigation": "尽快安排现场拜访，深入了解业务"
+            },
+            {
+              "id": "risk2",
+              "category": "技术",
+              "description": "立体仓储柜供应商的接口开放程度不确定",
+              "probability": "中",
+              "impact": "中",
+              "mitigation": "提前确认设备供应商及其接口能力"
+            }
+          ],
+          "assumptions": [
+            {
+              "id": "a1",
+              "description": "客户有网络环境和服务器资源",
+              "basis": "客户具备数字化基础",
+              "validationMethod": "现场调研确认",
+              "riskIfInvalid": "可能需要额外采购硬件"
+            }
+          ],
+          "dependencies": [
+            {
+              "id": "dep1",
+              "description": "立体仓储柜供应商及设备选型",
+              "type": "外部",
+              "owner": "客户",
+              "dueDate": "待确认",
+              "status": "待确认"
+            }
+          ]
         },
 
         "solutionDirection": {
-          "overallApproach": "",
-          "recommendedType": "",
-          "nextSteps": []
+          "overallApproach": "软硬件一体化智能仓储解决方案",
+          "recommendedType": "待根据详细需求确定（标准WMS产品/定制开发）",
+          "nextSteps": [
+            {
+              "id": "ns1",
+              "action": "安排现场拜访",
+              "owner": "销售",
+              "deadline": "尽快",
+              "deliverable": "现场调研完成，获取详细需求"
+            },
+            {
+              "id": "ns2",
+              "action": "确认立体仓储柜意向供应商",
+              "owner": "销售",
+              "deadline": "方案设计前",
+              "deliverable": "设备供应商信息"
+            }
+          ]
         },
 
         "openQuestions": []
