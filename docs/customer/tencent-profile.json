@@ -1,0 +1,152 @@
+{
+  "profile": {
+    "companyName": "腾讯科技有限公司",
+    "shortName": "腾讯 / Tencent",
+    "registeredName": "腾讯科技（深圳）有限公司",
+    "englishName": "Tencent Technology (Shenzhen) Co., Ltd.",
+    "isListed": true,
+    "stockCode": "00700.HK（腾讯控股）",
+    "website": "https://www.tencent.com/",
+    "industry": "互联网科技",
+    "subIndustry": "社交网络 / 在线游戏 / 云计算 / 金融科技 / 数字内容",
+    "scale": "超大型 - 员工11.5万人",
+    "mainBusiness": "世界领先的互联网科技公司，通过通信与社交、数字内容、金融科技、企业服务四大板块，连接全球逾10亿用户",
+    "products": [
+      "微信 / WeChat - 超过13亿月活的社交平台",
+      "QQ - 即时通信与社交网络",
+      "腾讯游戏 - 中国最大游戏发行商",
+      "腾讯云 - 企业级云服务",
+      "企业微信 - 企业通信与协作工具",
+      "腾讯会议 - 云端会议解决方案",
+      "微信支付 - 移动支付",
+      "腾讯视频 - 流媒体视频平台",
+      "腾讯广告 - 数字营销平台"
+    ],
+    "targetCustomers": [
+      "C端用户：全球互联网用户（覆盖社交、娱乐、支付等生活场景）",
+      "B端企业：各行业数字化转型企业（金融、零售、政务、医疗、教育等）",
+      "开发者：依托腾讯生态的开发者与合作伙伴"
+    ],
+    "businessModel": "平台生态 + TOC增值服务 + TOB企业服务 + 投资并购",
+    "rating": "港股龙头 / 全球前五大互联网公司 / 中国互联网三巨头BAT之一",
+    "tags": ["上市公司", "超大型企业", "全球化", "AI领先", "碳中和承诺", "高市值", "现金充裕"],
+
+    "summary": "港交所上市公司（00700.HK），市值约5.5万亿港元，员工超11.5万人。中国互联网三巨头之一，业务覆盖社交、游戏、云、金融科技、内容等领域。2025年营收保持双位数增长，毛利率持续改善，AI战略开始获益。2025年4月宣布史上最大招聘计划，三年新增2.8万校招岗位。不晚于2030年实现自身运营及供应链全面碳中和。决策流程化、采购体系成熟，是典型的大型上市公司销售对象。",
+
+    "registration": {
+      "foundedDate": "1998年11月（腾讯集团）/ 2000年（腾讯科技深圳公司）",
+      "registeredCapital": "200万美元（腾讯科技深圳）",
+      "paidInCapital": "待补充",
+      "ownershipType": "上市公司（港交所）",
+      "address": "中国深圳南山区高新区腾讯大厦",
+      "branches": {
+        "count": "全球50+办公室",
+        "locations": ["深圳总部", "北京", "上海", "广州", "香港", "新加坡", "美国 Palo Alto", "英国伦敦等"]
+      },
+      "legalRisks": "少量常规商业诉讼，无重大风险",
+      "operatingAnomalies": "无",
+      "penalties": "无重大行政处罚记录",
+      "summary": "上市公司治理规范，资质健全，全球布局"
+    },
+
+    "policyAnalysis": {
+      "isSpecialized": false,
+      "isDigitalTransformation": true,
+      "isESG": true,
+      "isHighTech": true,
+      "policySupportLevel": "中 - 自身是政策受益者，而非政策支持对象",
+      "leverageStrategy": "腾讯更多是政策执行者/平台提供方，可强调助力客户数字化转型、碳中和、信创等政策合规能力"
+    },
+
+    "timing": {
+      "currentPhase": "稳健增长期",
+      "evidence": "2025年前三季度营收5,573.95亿元，同比增长14%；Q3营收1,928.7亿元，同比增长15%；员工数持续增加至11.5万；市值稳定在5万亿港元以上",
+      "entryStrategy": "预算充足，决策流程化。切入需找准业务单元和决策人，强调与腾讯现有技术生态的协同、AI能力赋能、以及如何帮助腾讯提升效率或拓展新业务"
+    },
+
+    "creditRisk": {
+      "legalRisk": "低 - 上市公司治理规范",
+      "operationalRisk": "低 - 行业地位稳固，现金流充裕",
+      "creditRating": "高 - 市值5.5万亿港元，现金储备充足",
+      "warnings": [],
+      "salesAdvice": "优质大客户，付款能力无虞。但决策链条长，需耐心跟进。建议从具体业务痛点切入，找到内部 champion"
+    },
+
+    "organization": {
+      "type": "上市公司 / 事业部制",
+      "decisionChain": "总部CXO + 事业群总裁（WXG微信事业群/IEG互动娱乐/CSIG云与智慧产业等）+ 业务线负责人 + 采购部门",
+      "keyPersons": [
+        {"role": "董事会主席兼CEO", "name": "马化腾", "influence": "最高"},
+        {"role": "CSIG总裁", "name": "汤道生（待验证）", "influence": "高 - 企业服务决策"},
+        {"role": "WXG总裁", "name": "张小龙（待验证）", "influence": "高 - 微信生态决策"},
+        {"role": "IEG总裁", "name": "任宇昕", "influence": "高 - 游戏业务决策"},
+        {"role": "采购负责人", "name": "待补充", "influence": "中"}
+      ],
+      "salesStrategy": "1) 找准业务单元和痛点 2) 找到内部 champion 推动立项 3) 准备充分的资质证明和案例 4) 适配腾讯的技术栈和采购流程 5) 强调与腾讯生态的协同价值"
+    },
+
+    "strategy": {
+      "phase": "成熟期",
+      "growthStage": "稳健增长 + AI战略 + 国际化",
+      "competitivePosition": "中国互联网前二，全球前五。游戏第一、社交垄断、云服务前三、金融科技领先",
+      "digitalMaturity": "极高 - 自身就是数字化基础设施提供商",
+      "analysisPath": "Path A - 数据驱动分析（上市公司）",
+      "informationQuality": "高 - 财报公开、信息披露充分、官网资料详实",
+      "expansionSignals": [
+        "2025年Q3营收同比增长15%，利润增速高于营收",
+        "2025年4月宣布史上最大招聘计划，三年新增2.8万岗位",
+        "AI技术开始商业化变现",
+        "对外投资活跃（2025年约120起投资）",
+        "员工数持续增加至11.5万人"
+      ],
+      "contractionSignals": [],
+      "riskSignals": ["监管政策变化风险", "游戏版号政策风险", "反垄断监管风险", "国际业务地缘政治风险"]
+    },
+
+    "techStack": {
+      "current": ["自研系统为主", "云原生架构", "AI大模型", "微服务", "容器化", "大数据平台"],
+      "inferred": ["Go/Java/C++", "MySQL/分布式数据库", "消息队列", "监控系统", "CI/CD"],
+      "maturity": "极高 - 行业技术标杆",
+      "direction": "向 AI Native、智能化、全球化演进",
+      "developmentStack": ["自研技术栈为主"],
+      "infrastructure": ["全球数据中心", "自研服务器", "T-Block数据中心技术"],
+      "thirdParty": ["部分采用开源组件 + 自研"]
+    },
+
+    "keyMetrics": [
+      {"label": "员工规模", "value": "115,076人（2025年Q3）", "trend": "持续增长"},
+      {"label": "2025年前三季度营收", "value": "5,573.95亿元", "trend": "同比增长14%"},
+      {"label": "2025年Q3营收", "value": "1,928.7亿元", "trend": "同比增长15%"},
+      {"label": "2025年Q3毛利", "value": "1,087.98亿元", "trend": "同比增长22%"},
+      {"label": "市值", "value": "约5.5万亿港元", "trend": "年内涨幅约17%"},
+      {"label": "股票代码", "value": "00700.HK", "trend": null},
+      {"label": "上市时间", "value": "2004年6月16日", "trend": null},
+      {"label": "碳中和目标", "value": "不晚于2030年", "trend": null},
+      {"label": "招聘计划", "value": "3年2.8万校招岗位（2025年启动）", "trend": null}
+    ],
+
+    "metadata": {
+      "createdAt": "2026-03-16",
+      "updatedAt": "2026-03-16",
+      "createdBy": "AI销售助理",
+      "version": "1.0",
+      "sources": [
+        "https://www.tencent.com/",
+        "https://www.tencent.com/zh-cn/about.html",
+        "https://www.tencent.com/zh-cn/business.html",
+        "雪球 - 腾讯控股00700.HK",
+        "腾讯2025年Q3财报",
+        "新浪财经 - 腾讯员工数量报道",
+        "知乎 - 腾讯阿里字节对比",
+        "天眼查 - 腾讯科技深圳公司"
+      ],
+      "confidence": 95,
+      "todos": [
+        "验证各事业群当前负责人及决策权限",
+        "了解腾讯采购流程和供应商准入要求",
+        "确认近期IT预算规划和重点投入方向",
+        "识别具体业务痛点和合作机会"
+      ]
+    }
+  }
+}
