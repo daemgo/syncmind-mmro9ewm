@@ -1,4 +1,4 @@
-# syncMind Starter 项目规则
+# syncMind - 新时代销售引擎
 
 ## 🔥 最高优先级：Skill 工具结果处理规则
 
