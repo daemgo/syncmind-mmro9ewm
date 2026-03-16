@@ -15,7 +15,7 @@ export default function Home() {
       <div className="container mx-auto px-4 py-20">
         <div className="max-w-3xl mx-auto text-center space-y-6">
           <h1 className="text-5xl md:text-6xl font-serif font-medium tracking-wide">
-            欢迎使用 syncMind
+            欢迎进来
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground font-light">
             AI 驱动的企业客户数字化档案管理系统
